@@ -1,0 +1,91 @@
+@import url('https://fonts.cdnfonts.com/css/domine');
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:darkblue;
+}
+body {
+    margin: 50px;
+    margin-top: 20px;
+}
+#Titulo{
+    margin-top: -40px;
+    height: 140px;
+}
+#TituloPrincipal {
+    font-size: 100px;
+    text-decoration: overline;
+    font-family: 'Domine', sans-serif;
+}
+#LogoDB {
+    width: 150px;
+    height: 150px;
+    margin-bottom: -50px;
+    margin-left: -25px;
+    margin-right: -10px;
+}
+/*----------------------------------------------------------------------------*/
+nav > ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+li{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+/*----------------------------------------------------------------------------*/
+#contenedor{
+    overflow: hidden;
+    height: 120px;
+    width: 1000px;
+    text-align: justify;
+}
+#A,#B{
+    height: 50px;
+    width: 590px;
+}
+table{
+    border: 10;
+    border-color: black;
+
+}
+td{
+    text-align: justify;
+    font-size: 30px;
+    font-family:'Domine', sans-serif;
+    font-style:unset;
+}
+#C{
+    height: 5px;
+    background-color: black;
+}
+tr{
+    border: 4px;
+    border: black;
+}
+/*---------------------*/
+fieldset{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Div-Comentarios{
+    display: inline-flex;
+}
+#div-formulario{
+    height: 300px;
+    width: 800px;
+}
+#img{
+    float: right;
+    height: 500px;
+    margin-top: -299px;
+}
+/*--------------------------------------------*/
+#pie{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}

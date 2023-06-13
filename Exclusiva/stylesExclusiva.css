@@ -1,0 +1,144 @@
+@import url('https://fonts.cdnfonts.com/css/domine');
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:darkblue;
+}
+body {
+    margin: 50px;
+    margin-top: 20px;
+}
+#Titulo{
+    margin-top: -40px;
+    height: 140px;
+}
+#TituloPrincipal {
+    font-size: 100px;
+    text-decoration: overline;
+    font-family: 'Domine', sans-serif;
+}
+#LogoDB {
+    width: 150px;
+    height: 150px;
+    margin-bottom: -50px;
+    margin-left: -25px;
+    margin-right: -10px;
+}
+/*----------------------------------------------------------------------------*/
+nav > ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+li{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+/*----------------------------------------------------------------------------*/
+#contenedor{
+    overflow: hidden;
+    height: 120px;
+    width: 1000px;
+    text-align: justify;
+}
+#A,#B{
+    height: 50px;
+    width: 590px;
+}
+table{
+    border: 10;
+    border-color: black;
+
+}
+td{
+    text-align: justify;
+    font-size: 30px;
+    font-family:'Domine', sans-serif;
+    font-style:unset;
+}
+#C{
+    height: 5px;
+    background-color: black;
+}
+tr{
+    border: 4px;
+    border: black;
+}
+/*------------------------------------------------------*/
+#Titulo-Exclusiva{
+    color: black;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+#La-Exclusiva{
+    background-color:rgb(208, 252, 237);
+    display:inline-flex ;
+    width: 1200px;
+    height: 600px;
+}
+#nuevo-spider-man{
+    height: 560px;
+    margin: 20px;
+}
+#Div-Texto-1{
+    height: 560px;
+    margin: 20px;
+}
+#Texto{
+    color: black;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+#Video-Exclusiva{
+    background-color:rgb(208, 252, 237);
+    display:inline-flex ;
+    width: 1200px;
+    height: 400px;
+}
+#Div-Video1{
+    float: right;
+    height: 360px;
+    margin: 20px;
+}
+iframe{
+    margin: 20px;
+}
+#Div-Texto-2{
+    float: right;
+    height: 370px;
+    width: 650px;
+    margin: 20px;
+}
+#Texto-2{
+    color: black;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    margin: 20px;
+}
+#Subtitulos{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+/*--------------------------------------------*/
+button{
+    float: right;
+    width: 120px;
+    height: 25px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:aquamarine;
+}
+#pie{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}

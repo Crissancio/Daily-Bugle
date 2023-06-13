@@ -1,0 +1,178 @@
+@import url('https://fonts.cdnfonts.com/css/domine');
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:darkblue;
+}
+body {
+    margin: 50px;
+    margin-top: 20px;
+}
+#Titulo{
+    margin-top: -40px;
+    height: 140px;
+}
+#TituloPrincipal {
+    font-size: 100px;
+    text-decoration: overline;
+    font-family: 'Domine', sans-serif;
+}
+#LogoDB {
+    width: 150px;
+    height: 150px;
+    margin-bottom: -50px;
+    margin-left: -25px;
+    margin-right: -10px;
+}
+/*----------------------------------------------------------------------------*/
+nav > ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+li{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+/*----------------------------------------------------------------------------*/
+#contenedor{
+    overflow: hidden;
+    height: 120px;
+    width: 1000px;
+    text-align: justify;
+}
+#A,#B{
+    height: 50px;
+    width: 590px;
+}
+table{
+    border: 10;
+    border-color: black;
+
+}
+td{
+    text-align: justify;
+    font-size: 30px;
+    font-family:'Domine', sans-serif;
+    font-style:unset;
+}
+#C{
+    height: 5px;
+    background-color: black;
+}
+tr{
+    border: 4px;
+    border: black;
+}
+/*----------------------------------------------------------------------------*/
+#NoticiaPrincipal{ /*Div*/
+    display: block;
+    background-color: rgb(208, 252, 237);
+    width: 1200px;
+    height: 400px;
+}
+#b{
+    height: 400px;
+}
+#DobleAmenaza{
+    height: 400px;
+    width: 750px;
+    float: left;
+    margin-right: 30px;
+}
+#TituloNoticiaPrincipal{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-align:left;
+    margin-top: 25px;
+}
+#NoticiaPrincipalTexto{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+/*-----------------------------------------------------------------------------*/
+#Titulos2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-decoration:underline
+}
+#OtrasNoticias{
+    width: 1200px;
+    height: 300px;
+    display:inline-flex;
+}
+#Noticia{
+    background-color: rgb(208, 252, 237);
+    width: 560px;
+    height: 260px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#rhino-vs-spidy{
+    width: 180px;
+    height: 240px;
+    float: left;
+    margin: 10px;
+}
+#Robo-Movilizado{
+    width: 180px;
+    height: 240px;
+    float: left;
+    margin: 10px;
+}
+#morales-scorpio{
+    width: 180px;
+    height: 240px;
+    float: left;
+    margin: 10px;
+}
+#Eminem-Spidy{
+    height: 240px;
+    float: left;
+    margin: 10px;
+}
+#TituloA{
+    font-size: 25px;
+    text-align:left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Enlaces{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+}
+/*----------------------------------------------------------------------------*/
+#Publicidad{
+    display: inline-flex;
+    width: 1100px;
+    height: 440px;
+    background-color: rgb(208, 252, 237);
+}
+#Publicidad2{
+    width: 560px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#el-preferido{
+    margin-left: -90px;
+    height: 400px;   
+}
+#Publicidad-Texto{
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 27px;
+}
+/*----------------*/
+#pie{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}

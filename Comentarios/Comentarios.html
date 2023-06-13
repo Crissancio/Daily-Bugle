@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesComentarios.css">
+    <link rel="shortcut icon" href="../Index/Media/daily_bugle_logo.png">
+    <title>Daily Bugle | Comentarios</title>
+</head>
+<body>
+<!-----Inicio Encabezados------>
+<center>
+    <div id="contenedor">
+        <table cellspacing="17px" cellpadding="2px" align="center">
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td id="A">AUMENTO DE LOS CRÍMENES EN LA CIUDAD DE NEW YORK</td>
+                    <td></td>
+                    <td></td>
+                    <td id="B">LOS NUMERO DE LA LOTERÍA SEMANAL: 5737-8378-3344</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td id="C"></td>
+                    <td></td>
+                    <td></td>
+                    <td id="C"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    </center>
+<!----Final Encabezados---->
+<br>
+<!----Inicio Logo Cabeza---->
+    <hr width="1300px" size="2px" color="black" align="center">
+    <div id="Titulo">
+        <h1 align="center" id="TituloPrincipal"><u>THE DAILY<img src="../Index/Media/daily_bugle_logo.png" alt="daily bugle img" id="LogoDB">BUGLE</u></h1>
+    </div>
+<!----Final Logo Cabeza---->
+<!----Barra de navegación---->
+    <div id="navegacion">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="../Exclusiva/Exclusiva.html">La Exclusiva</a><li>
+                <li><a href="../Noticias/Noticias.html">Noticias</a></li>
+                <li><a href="../Comentarios/Comentarios.html">Comentarios</a></li>
+            </ul>
+        </nav>
+    </div>
+    <hr width="1300px" align="center" size="2px" color="black">
+<!----Seccion de comentarios---->
+<div id="Div-Comentario">
+    <div id="div-formulario">
+        <form action="ejemplo.php" method="dialog" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Comenta y opina</legend>
+                <label for="name">Ingresa tu usuario:</label><br>
+                <input type="text" id="name" name="Nombre">
+                <br> <br>
+                <label for="name">Ingresa tu Dirección de Correo electrónico    :</label><br>
+                <input type="text" id="name" name="Nombre">
+                <br><br>
+                <label for="textarea">Que opinas sobre las ultimas noticias:</label><br>
+                <textarea name="Mensaje" id="textarea" cols="30" rows="10" placeholder="Déjanos una reseña"></textarea>
+                <br>
+                <p>Califícanos: Como te pareció la Información dada:</p>
+                <input type="radio" name="normal" id="">Poca Precisa
+                <input type="radio" name="normal" id="">Muy Mala
+                <input type="radio" name="normal" id="">Normal
+                <input type="radio" name="normal" id="">Decente
+                <input type="radio" name="normal" id="">Buena
+                <input type="radio" name="normal" id="">Muy Buena
+                <input type="radio" name="normal" id="">Excelente
+                <br><br>
+                <input type="submit" value="Enviar">
+
+            </fieldset>
+        </form>
+    </div>
+    <img id="img"src="Media/noticia.jpg" height="300px" alt="a">
+</div>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <hr width="1300px" size="2px" color="black" align="center">
+    <footer id="pie" > 
+        Derechos Reservados &copy; 2022-2023 
+    </footer>
+</body>
+</html>
